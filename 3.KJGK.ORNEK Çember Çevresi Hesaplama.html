@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="navbar-brand" href="#">KJGK - Örnekler</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a class="list-group-item" href="./01.KJGK.ORNEK Saat Yapımı.html">Saat Yapımı</a>
+                    <a class="list-group-item" href="./02.KJGK.ORNEK Çember Çevresi Hesapla.html">Çember Çevresi Hesapla</a>
+                    <a class="list-group-item active" href="./03.KJGK.ORNEK Dikdörtgen Alan Hesapla.html">Dikdörtgen Alan Hesapla</a>
+                    <a class="list-group-item" href="./04.KJGK.ORNEK Buton Deger +-.html">Butona Tıklayınca Değer Arttırma/Azaltma</a>
+                    <a class="list-group-item" href="./05.KJGK.ORNEK Bende Gelecem Butonu.html">Bende Gelecem Butonu</a>
+                    <a class="list-group-item" href="./06.KJGK.ORNEK Hareketli Renkler.html">Hareketli Renkler</a>
+                    <a class="list-group-item" href="./07.KJGK.ORNEK Gönderi Kartı Scripti.html">Gönderi Kartı Scripti</a>
+                    <a class="list-group-item" href="./08.KJGK.ORNEK İletişim Alanı Scripti.html">İletişim Alanı Scripti</a>
+                    <a class="list-group-item" href="./09.KJGK.ORNEK Login Giriş Scripti.html">Login Giriş Scripti</a>
+                    <a class="list-group-item" href="./10.KJGK.ORNEK Kişi Arama Scripti.html">Kişi Arama Scripti</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="hero-unit">
+                            <div class="form-group row">
+                                <label for="example-text-input" class="col-2 col-form-label">1.Kenar</label>
+                                <div class="col-10">
+                                    <input class="form-control" type="text" id="birinciKenar">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="example-text-input" class="col-2 col-form-label">2.Kenar</label>
+                                <div class="col-10">
+                                    <input class="form-control" type="text" id="ikinciKenar">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <h3 id="Alan"></h3>
+                            </div>
+                            <div class="form-group row">
+                                <button type="button" onclick="hesapla()" class="btn btn-primary">Hesapla</button>
+                            </div>
+                            <script>
+                                function hesapla() {
+                                    var bk = document.getElementById("birinciKenar").value;
+                                    var ik = document.getElementById("ikinciKenar").value;
+                                    var bk1 = Number(bk);
+                                    var ik1 = Number(ik);
+                                    var alan = bk1 * ik1;
+                                    document.getElementById("Alan").innerHTML = alan;
+                                }
+                                function hesapla() {
+                                    var yariCapString = document.getElementById("YariÇap").value;
+                                    r = Number(yariCapString);
+                                    var pi = Math.PI;
+                                    var cevre = 2 * pi * r;
+                                    document.getElementById("Cevre").innerHTML = cevre;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

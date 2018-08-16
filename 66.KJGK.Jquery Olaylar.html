@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .divClass > #test2 {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<h5>Adı : </h5>
+<input type="text" id="test" onfocus="console.log('focus oldu.')"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $("#test").on("focus",
+        function() {
+            console.log('focus oldu.');
+            this.value = "Ercan Ayhan";
+        });
+    $("#test").blur(function() {
+        console.log('içinden çıktı oldu.');
+        this.value = "";
+    });
+</script>
+</body>
+</html>

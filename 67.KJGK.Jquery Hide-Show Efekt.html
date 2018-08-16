@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<div style="height: 200px; background-color: red;" id="div1"></div>
+<button type="button" onclick="funcGizleGoster();">Gizle/Göster</button>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    //hide,show(100),toggle
+    $("#div1").toggle();
+    function funcGizleGoster() {
+        if ($("#div1")[0].style.display == "none") {
+            $("#div1").show();
+        } else {
+            $("#div1").hide(1000);
+        }
+    }
+</script>
+</body>
+</html>

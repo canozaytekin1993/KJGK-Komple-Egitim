@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="divID">
+        <p id="p1">birinci paragraf</p>
+        <p id="p2">ikinci paragraf</p>
+    </div>
+    <script>
+        var kisiListe = [
+            { Adi: "Ercan", Soyad: "Ayhan" },
+            { Adi: "Ercan 1", Soyad: "Ayhan 1" },
+            { Adi: "Ercan 2", Soyad: "Ayhan 2" },
+            { Adi: "Ercan 3", Soyad: "Ayhan 3" },
+            { Adi: "Ercan 4", Soyad: "Ayhan 4" }
+        ];
+        document.getElementById("divID").innerHTML = '<p id="p3">üçüncü paragraf</p>' +
+            document.getElementById("divID").innerHTML;
+        document.getElementById("p2").remove();
+        for (var i = 0; i < kisiListe.length; i++) {
+            document.getElementById("div2").innerHTML += "<h1>" + kisiListe[i].Adi + " <a href='/'>" + kisiListe[i].Soyad + "</h1>";
+        }
+    </script>
+</body>
+</html>

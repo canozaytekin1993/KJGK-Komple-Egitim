@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<div class="hero-unit">
+    <script>
+        var sayac = 0;
+        requestAnimationFrame(Baslat);
+
+        function Baslat() {
+            sayac++;
+            document.getElementByClassName("hero-unit")[0].innerHTML += "<div id='HareketliDiv" +
+                sayac +
+                "' style ='float:left;height:30px;width:30px;'></div>";
+            var renk1 = Math.floor(255 * Math.random());
+            var renk2 = Math.floor(255 * Math.random());
+            var renk3 = Math.floor(255 * Math.random());
+            document.getElementById("HareketliDiv" + sayac).style.backgroundColor =
+                "rgb(" + renk1 + "," + renk2 + "," + renk3 + ")";
+            requestAnimationFrame(Baslat);
+        }
+    </script>
+</div>
+</body>
+</html>

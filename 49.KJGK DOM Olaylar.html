@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<h5 onmousemove="console.log('h5 üzerinde hareket halinde');" onmouseleave="console.log('ayrildi')">Adı:</h5>
+<input type="text" value="can özaytekin" onchange="console.log('değişim var')" onfocus="console.log('focus oldu')" onblur="console.log('içinden çıkılıyor.')"/>
+    <button type="button" data-test="5" onclick="Tikla(this)">Tıkla</button>
+<script>
+    //onclick,onfocus,onmouse.blur,
+    function Tikla(a) {
+        console.log('bana tiklandi.');
+    }
+</script>
+</body>
+</html>

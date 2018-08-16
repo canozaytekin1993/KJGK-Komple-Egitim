@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <style>
+     .divClass > #test2{
+         background-color: red;
+     }   
+    </style>
+</head>
+<body>
+<h5 id="h5Etiketi">Merhaba BEN H5</h5>
+<div class="divClass">
+    <h5 id="test">
+        <span>test</span>
+    </h5>
+</div>
+<div class="divClass">
+    <h3 id="test2">
+        <span>test2</span>
+    </h3>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    console.log($(".divClass span"));
+    console.log($("span,h5"));
+</script>
+</body>
+</html>

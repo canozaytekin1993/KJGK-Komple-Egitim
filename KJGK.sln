@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29F35AAA-994B-441C-9456-5DB8F1EABC64}"
+	ProjectSection(SolutionItems) = preProject
+		09.Nasıl Kullanılır.html = 09.Nasıl Kullanılır.html
+		10.Nasıl Çalışır.html = 10.Nasıl Çalışır.html
+		11.KJGK Yorumlar.html = 11.KJGK Yorumlar.html
+		12.KJGK Değişkenler.html = 12.KJGK Değişkenler.html
+		13.KJGK Veri Tipleri.html = 13.KJGK Veri Tipleri.html
+		14.KJGK Operatörler ve Atamalar.html = 14.KJGK Operatörler ve Atamalar.html
+		15.KJGK Fonskiyonlar.html = 15.KJGK Fonskiyonlar.html
+		16.KJGK Parametreler.html = 16.KJGK Parametreler.html
+		17.KJGK Nesneler.html = 17.KJGK Nesneler.html
+		18.KJGK Selektörler.html = 18.KJGK Selektörler.html
+		19.KJGK Strings ve String Metotları.html = 19.KJGK Strings ve String Metotları.html
+		20.KJGK Numbers ve Number Metotları.html = 20.KJGK Numbers ve Number Metotları.html
+		21.KJGK Matematiksel Fonksiyonlar.html = 21.KJGK Matematiksel Fonksiyonlar.html
+		22.KJGK Random Metodu.html = 22.KJGK Random Metodu.html
+		23.KJGK Tarihler, Tarih Formatları ve Metotları.html = 23.KJGK Tarihler, Tarih Formatları ve Metotları.html
+		24.KJGK Boolean.html = 24.KJGK Boolean.html
+		25.KJGK Karşılaştırma ve Mantıksal Operatörler.html = 25.KJGK Karşılaştırma ve Mantıksal Operatörler.html
+		26.KJGK If Else Karşılaştırma.html = 26.KJGK If Else Karşılaştırma.html
+		27.KJGK Ternary Operatörü.html = 27.KJGK Ternary Operatörü.html
+		28.KJGK Switch Karşılaştırma.html = 28.KJGK Switch Karşılaştırma.html
+		29.KJGK For döngüleri.html = 29.KJGK For döngüleri.html
+		30.KJGK While Döngüsü.html = 30.KJGK While Döngüsü.html
+		31.KJGK Break Komutu.html = 31.KJGK Break Komutu.html
+		32.KJGK Diziler ve Çeşitleri.html = 32.KJGK Diziler ve Çeşitleri.html
+		33.KJGK Dizi Metotları.html = 33.KJGK Dizi Metotları.html
+		34.KJGK Dizi Sıralama.html = 34.KJGK Dizi Sıralama.html
+		35.KJGK Try Catch ile Hata Yakalama.html = 35.KJGK Try Catch ile Hata Yakalama.html
+		36.KJGK Kod Satırları Sırası.html = 36.KJGK Kod Satırları Sırası.html
+		37.KJGK Strict Mode.html = 37.KJGK Strict Mode.html
+		38.KJGK Doğru ve Performanslı Kodlama.html = 38.KJGK Doğru ve Performanslı Kodlama.html
+		39.KJGK Nesne Tanımları.html = 39.KJGK Nesne Tanımları.html
+		40.KJGK Nesne Alanları.html = 40.KJGK Nesne Alanları.html
+		41.KJGK Nesne Metotları.html = 41.KJGK Nesne Metotları.html
+		42.KJGK Prototipler.html = 42.KJGK Prototipler.html
+		43.KJGK Fonksiyon Tanımlama.html = 43.KJGK Fonksiyon Tanımlama.html
+		44.KJGK Parametreler.html = 44.KJGK Parametreler.html
+		46.KJGK İç İçe Fonksiyonlar.html = 46.KJGK İç İçe Fonksiyonlar.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ornekler", "Ornekler", "{ECC4ED60-0110-44C3-9FE1-81548291A4AE}"
+	ProjectSection(SolutionItems) = preProject
+		1.KJGK.ORNEK Saat Yapımı.html = 1.KJGK.ORNEK Saat Yapımı.html
+		3.KJGK.ORNEK Çember Çevresi Hesaplama.html = 3.KJGK.ORNEK Çember Çevresi Hesaplama.html
+		4.KJGK.ORNEK Buton Deger.html = 4.KJGK.ORNEK Buton Deger.html
+		5.KJGK.ORNEK Bende Gelecem Butonu.html = 5.KJGK.ORNEK Bende Gelecem Butonu.html
+		6.KJGK.ORNEK Hareketli Renkler.html = 6.KJGK.ORNEK Hareketli Renkler.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOM", "DOM", "{51E01FA5-E9B2-45E6-9F73-4BD5DD32DD89}"
+	ProjectSection(SolutionItems) = preProject
+		46.KJGK DOM Eleman Bulma ve Metotları.html = 46.KJGK DOM Eleman Bulma ve Metotları.html
+		47.KJGK DOM Html Etkileşimleri.html = 47.KJGK DOM Html Etkileşimleri.html
+		48.KJGK DOM CSS Etkileşimleri.html = 48.KJGK DOM CSS Etkileşimleri.html
+		49.KJGK DOM Olaylar.html = 49.KJGK DOM Olaylar.html
+		50.KJGK DOM Html Koloksiyonları.html = 50.KJGK DOM Html Koloksiyonları.html
+		50.KJGK DOM Olay Dinleyicileri.html = 50.KJGK DOM Olay Dinleyicileri.html
+		51.KJGK DOM Eleman Ekleme ve Çıkarma.html = 51.KJGK DOM Eleman Ekleme ve Çıkarma.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BOM", "BOM", "{C72B6D15-F413-4B99-BA47-A206116BCA76}"
+	ProjectSection(SolutionItems) = preProject
+		55.KJGK BOM Window .html = 55.KJGK BOM Window .html
+		56. BOM Alert Çeşitleri.html = 56. BOM Alert Çeşitleri.html
+		56. BOM Geçmiş.html = 56. BOM Geçmiş.html
+		57. BOM Navigator.html = 57. BOM Navigator.html
+		58. BOM Cookie .html = 58. BOM Cookie .html
+		58. BOM Zamanlama Olayları.html = 58. BOM Zamanlama Olayları.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSON", "JSON", "{7DB71AF5-9A8E-4AF6-A90D-74448C07BDB3}"
+	ProjectSection(SolutionItems) = preProject
+		59.KJGK.JSON Giriş.html = 59.KJGK.JSON Giriş.html
+		60.KJGK.JSON ve XML.html = 60.KJGK.JSON ve XML.html
+		61.KJGK.JSON dan Nesneye Dönüşüm.html = 61.KJGK.JSON dan Nesneye Dönüşüm.html
+		62.KJGK.Nesne den Nesneye Dönüşüm.html = 62.KJGK.Nesne den Nesneye Dönüşüm.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQUERY", "JQUERY", "{2A58BBFC-55D1-4A62-A529-E258F1F79A83}"
+	ProjectSection(SolutionItems) = preProject
+		63.KJGK.Jquery Giriş.html = 63.KJGK.Jquery Giriş.html
+		64.KJGK.Jquery Gramer Yapısı.html = 64.KJGK.Jquery Gramer Yapısı.html
+		65.KJGK.Jquery Gezintili Selektör.html = 65.KJGK.Jquery Gezintili Selektör.html
+		66.KJGK.Jquery Olaylar.html = 66.KJGK.Jquery Olaylar.html
+		67.KJGK.Jquery Hide-Show Efekt.html = 67.KJGK.Jquery Hide-Show Efekt.html
+		68.KJGK.Jquery Fade Efekt.html = 68.KJGK.Jquery Fade Efekt.html
+		69.KJGK.Jquery Slide Efekt.html = 69.KJGK.Jquery Slide Efekt.html
+		70.KJGK.Jquery Animate Efekt.html = 70.KJGK.Jquery Animate Efekt.html
+		71.KJGK.Jquery Stop Animate Efekt.html = 71.KJGK.Jquery Stop Animate Efekt.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B2D879-C24E-4C24-87EE-DB4A58396DB3}
+	EndGlobalSection
+EndGlobal

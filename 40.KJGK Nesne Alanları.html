@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        // nesne tanimi
+        // nesne.alan
+        // for
+        // delete
+        var kisi = { Adi: "Can", Soyadi: "Özaytekin", Yasi: "25" };
+        var ad = kisi.Adi;
+        var ad2 = kisi["Adi"];
+        console.log(ad);
+        console.log(ad2);
+        var kisiListe = [
+            { Adi: "Can1", Soyadi: "Özaytekin", Yasi: "25" },
+            { Adi: "Can1", Soyadi: "Özaytekin", Yasi: "25" },
+            { Adi: "Can1", Soyadi: "Özaytekin", Yasi: "25" }
+        ]
+        for (var i = 0; i < kisiListe.length; i++) {
+            console.log(kisiListe[i]);
+        }
+        for (kisi2 in kisiListe) {
+            console.log(kisiListe[kisi2])
+        }
+        // delete kisi listesi
+        delete kisi["Adi"]
+        console.log(kisi);
+    </script>
+</body>
+</html>

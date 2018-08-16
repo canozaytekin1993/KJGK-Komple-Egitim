@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="isim">Ercan</div>
+    <div class="isim">Ayhan</div>
+    <div class="isim">Ahmet</div>
+    <div id="soyisim">Yılmazoğlu</div>
+    <span>Saz</span>
+    <span>Keman</span>
+    <script>
+        document.getElementById("soyisim").innerHTML = "<b>Varmazoğlu</b>";
+        document.getElementsByClassName("isim")[1].innerHTML = "test";
+        document.getElementsByTagName("span")[1].innerHTML = "test2";
+    </script>
+</body>
+</html>

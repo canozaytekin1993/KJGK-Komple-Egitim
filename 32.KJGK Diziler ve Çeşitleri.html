@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<script>
+    //["","",""];
+    //new Array("","","");
+    //for
+    //push
+    //instanceof
+    //nesne
+    var meyveler = ["elma", "armut", "kavun"];
+    console.log(meyveler);
+    console.log(meyveler[1]);
+    var meyveler2 = new Array["elma", "armut", "kavun"];
+    console.log(meyveler2);
+    console.log(meyveler2[2]);
+    for (var i = 0; i < meyveler.length; i++) {
+        if (meyveler[i] == "elma") {
+            console.log("Ben elma istiyorum");
+        }
+        console.log(meyveler[i]);
+    }
+    meyveler.push("kiraz");
+    console.log(meyveler);
+    console.log(meyveler instanceof Array);
+
+    var arabalar = [];
+    var araba1 = { Marka: "Mercedes", Model: "C180" };
+    var araba2 = { Marka: "Mercedes", Model: "C180" };
+    var araba3 = { Marka: "Mercedes", Model: "C180" };
+    arabalar.push(araba1);
+    arabalar.push(araba2);
+    arabalar.push(araba3);
+    console.log(arabalar);
+    var teksayilar = [1, 3, 5];
+</script>
+</body>
+</html>

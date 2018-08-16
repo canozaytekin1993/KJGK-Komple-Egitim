@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<div class="hero-unit">
+    <h1 id="saat" style="color: #0094ff; text-align: center;"></h1>
+    <script>
+        setInterval(SaatiCalistir, 500);
+        function SaatiCalistir() {
+            var suankiSaat = new Date();
+            var hh = suankiSaat.getHours();
+            var mm = suankiSaat.getMinutes();
+            var ss = suankiSaat.getSeconds();
+            document.getElementById("saat").innerHTML = Formatla(hh) + ":" + Formatla(mm) + ":" + Formatla(ss);
+        }
+        function Formatla(text) {
+            if (text.toString().length == 1) {
+                return "0" + text;
+            } else {
+                return text;
+            }
+        }
+    </script>
+</div>
+<script>
+
+</script>
+</body>
+</html>
