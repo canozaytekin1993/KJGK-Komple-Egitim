@@ -95,6 +95,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQUERY", "JQUERY", "{2A58BB
 		71.KJGK.Jquery Stop Animate Efekt.html = 71.KJGK.Jquery Stop Animate Efekt.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQUERY HTML", "JQUERY HTML", "{3DF105A3-F981-4C27-9973-2340D60ACDD8}"
+	ProjectSection(SolutionItems) = preProject
+		72.KJGK.Jquery Deger Alma.html = 72.KJGK.Jquery Deger Alma.html
+		73.KJGK.Jquery Deger Atama.html = 73.KJGK.Jquery Deger Atama.html
+		74.KJGK.Jquery Html Ekleme.html = 74.KJGK.Jquery Html Ekleme.html
+		75.KJGK.Jquery Html Kaldırma.html = 75.KJGK.Jquery Html Kaldırma.html
+		76.KJGK.Jquery Html Boyutlarına Erişim.html = 76.KJGK.Jquery Html Boyutlarına Erişim.html
+		77.KJGK.Jquery Html Ust-Alt Erişim.html = 77.KJGK.Jquery Html Ust-Alt Erişim.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
