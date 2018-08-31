@@ -5,7 +5,6 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29F35AAA-994B-441C-9456-5DB8F1EABC64}"
 	ProjectSection(SolutionItems) = preProject
-		09.Nasıl Kullanılır.html = 09.Nasıl Kullanılır.html
 		10.Nasıl Çalışır.html = 10.Nasıl Çalışır.html
 		11.KJGK Yorumlar.html = 11.KJGK Yorumlar.html
 		12.KJGK Değişkenler.html = 12.KJGK Değişkenler.html
@@ -42,6 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		43.KJGK Fonksiyon Tanımlama.html = 43.KJGK Fonksiyon Tanımlama.html
 		44.KJGK Parametreler.html = 44.KJGK Parametreler.html
 		46.KJGK İç İçe Fonksiyonlar.html = 46.KJGK İç İçe Fonksiyonlar.html
+		9.Nasıl Kullanılır.html = 9.Nasıl Kullanılır.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ornekler", "Ornekler", "{ECC4ED60-0110-44C3-9FE1-81548291A4AE}"
