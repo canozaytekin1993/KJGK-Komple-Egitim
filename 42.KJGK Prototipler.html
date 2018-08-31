@@ -2,28 +2,29 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title></title>
 </head>
 <body>
-    <script>
-        function KisiTanimla(ad, soyad, yas) {
-            this.Adi = ad;
-            this.Soyadi = soyad;
-            this.Yasi = yas;
-            this.AdiDegistir = function () {
-                this.Adi = yeniAdi;
-            }
+<script>
+    function KisiTanimla(ad, soyad, yas) {
+        this.Adi = ad;
+        this.Soyadi = soyad;
+        this.Yasi = yas;
+        this.AdiDegistir = function() {
+            this.Adi = yeniAdi;
         }
-        var anne = new KisiTanimla("Ayşe", "Test", 38);
-        console.log(kisi);
-        console.log(kisi.Adi);
-        KisiTanimla.prototype.TamAdi = function () {
-            return this.Adi + " " + this.Soyadi;
-        }
-        KisiTanimla.prototype.Uyruk = "TC";
-        console.log(kisi.TamAdi);
-        console.log(kisi.Uyruk);
-    </script>
+    }
+
+    var anne = new KisiTanimla("Ayşe", "Test", 38);
+    console.log(kisi);
+    console.log(kisi.Adi);
+    KisiTanimla.prototype.TamAdi = function() {
+        return this.Adi + " " + this.Soyadi;
+    }
+    KisiTanimla.prototype.Uyruk = "TC";
+    console.log(kisi.TamAdi);
+    console.log(kisi.Uyruk);
+</script>
 </body>
 </html>

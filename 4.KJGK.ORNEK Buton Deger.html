@@ -2,272 +2,259 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <style>
-        @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="bootstrap.min.css" rel="stylesheet">
+<style>
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 
-        .panel-google-plus {
-            position: relative;
-            border-radius: 0px;
-            border: 1px solid rgb(216, 216, 216);
-            font-family: 'Roboto', sans-serif;
-        }
+    .panel-google-plus {
+        position: relative;
+        border-radius: 0px;
+        border: 1px solid rgb(216, 216, 216);
+        font-family: 'Roboto', sans-serif;
+    }
 
-            .panel-google-plus > .dropdown {
-                position: absolute;
-                top: 5px;
-                right: 15px;
-            }
+    .panel-google-plus > .dropdown {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+    }
 
-                .panel-google-plus > .dropdown > span > span {
-                    font-size: 10px;
-                }
+    .panel-google-plus > .dropdown > span > span { font-size: 10px; }
 
-                .panel-google-plus > .dropdown > .dropdown-menu {
-                    left: initial;
-                    right: 0px;
-                    border-radius: 2px;
-                }
+    .panel-google-plus > .dropdown > .dropdown-menu {
+        left: initial;
+        right: 0px;
+        border-radius: 2px;
+    }
 
-            .panel-google-plus > .panel-google-plus-tags {
-                position: absolute;
-                top: 35px;
-                right: -3px;
-            }
+    .panel-google-plus > .panel-google-plus-tags {
+        position: absolute;
+        top: 35px;
+        right: -3px;
+    }
 
-                .panel-google-plus > .panel-google-plus-tags > ul {
-                    list-style: none;
-                    padding: 0px;
-                    margin: 0px;
-                }
+    .panel-google-plus > .panel-google-plus-tags > ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
 
-                    .panel-google-plus > .panel-google-plus-tags > ul:hover {
-                        box-shadow: 0px 0px 3px rgb(0, 0, 0);
-                        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
-                    }
+    .panel-google-plus > .panel-google-plus-tags > ul:hover {
+        box-shadow: 0px 0px 3px rgb(0, 0, 0);
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    }
 
-                    .panel-google-plus > .panel-google-plus-tags > ul > li {
-                        display: block;
-                        right: 0px;
-                        width: 0px;
-                        padding: 5px 0px 5px 0px;
-                        background-color: rgb(245, 245, 245);
-                        font-size: 12px;
-                        overflow: hidden;
-                    }
+    .panel-google-plus > .panel-google-plus-tags > ul > li {
+        display: block;
+        right: 0px;
+        width: 0px;
+        padding: 5px 0px 5px 0px;
+        background-color: rgb(245, 245, 245);
+        font-size: 12px;
+        overflow: hidden;
+    }
 
-                        .panel-google-plus > .panel-google-plus-tags > ul > li::after {
-                            content: "";
-                            position: absolute;
-                            top: 0px;
-                            right: 0px;
-                            height: 100%;
-                            border-right: 3px solid rgb(66, 127, 237);
-                        }
+    .panel-google-plus > .panel-google-plus-tags > ul > li::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        border-right: 3px solid rgb(66, 127, 237);
+    }
 
-                        .panel-google-plus > .panel-google-plus-tags > ul:hover > li,
-                        .panel-google-plus > .panel-google-plus-tags > ul > li:first-child {
-                            padding: 5px 15px 5px 10px;
-                            width: auto;
-                            cursor: pointer;
-                            margin-left: auto;
-                        }
+    .panel-google-plus > .panel-google-plus-tags > ul:hover > li,
+    .panel-google-plus > .panel-google-plus-tags > ul > li:first-child {
+        padding: 5px 15px 5px 10px;
+        width: auto;
+        cursor: pointer;
+        margin-left: auto;
+    }
 
-                    .panel-google-plus > .panel-google-plus-tags > ul:hover > li {
-                        background-color: rgb(255, 255, 255);
-                    }
+    .panel-google-plus > .panel-google-plus-tags > ul:hover > li { background-color: rgb(255, 255, 255); }
 
-                    .panel-google-plus > .panel-google-plus-tags > ul > li:hover {
-                        background-color: rgb(66, 127, 237);
-                        color: rgb(255, 255, 255);
-                    }
+    .panel-google-plus > .panel-google-plus-tags > ul > li:hover {
+        background-color: rgb(66, 127, 237);
+        color: rgb(255, 255, 255);
+    }
 
-            .panel-google-plus > .panel-heading,
-            .panel-google-plus > .panel-footer {
-                background-color: rgb(255, 255, 255);
-                border-width: 0px;
-            }
+    .panel-google-plus > .panel-heading,
+    .panel-google-plus > .panel-footer {
+        background-color: rgb(255, 255, 255);
+        border-width: 0px;
+    }
 
-            .panel-google-plus > .panel-heading {
-                margin-top: 20px;
-                padding-bottom: 5px;
-            }
+    .panel-google-plus > .panel-heading {
+        margin-top: 20px;
+        padding-bottom: 5px;
+    }
 
-                .panel-google-plus > .panel-heading > img {
-                    margin-right: 15px;
-                }
+    .panel-google-plus > .panel-heading > img { margin-right: 15px; }
 
-                .panel-google-plus > .panel-heading > h3 {
-                    margin: 0px;
-                    font-size: 14px;
-                    font-weight: 700;
-                }
+    .panel-google-plus > .panel-heading > h3 {
+        margin: 0px;
+        font-size: 14px;
+        font-weight: 700;
+    }
 
-                .panel-google-plus > .panel-heading > h5 {
-                    color: rgb(153, 153, 153);
-                    font-size: 12px;
-                    font-weight: 400;
-                }
+    .panel-google-plus > .panel-heading > h5 {
+        color: rgb(153, 153, 153);
+        font-size: 12px;
+        font-weight: 400;
+    }
 
-            .panel-google-plus > .panel-body {
-                padding-top: 5px;
-                font-size: 13px;
-            }
+    .panel-google-plus > .panel-body {
+        padding-top: 5px;
+        font-size: 13px;
+    }
 
-                .panel-google-plus > .panel-body > .panel-google-plus-image {
-                    display: block;
-                    text-align: center;
-                    background-color: rgb(245, 245, 245);
-                    border: 1px solid rgb(217, 217, 217);
-                }
+    .panel-google-plus > .panel-body > .panel-google-plus-image {
+        display: block;
+        text-align: center;
+        background-color: rgb(245, 245, 245);
+        border: 1px solid rgb(217, 217, 217);
+    }
 
-                    .panel-google-plus > .panel-body > .panel-google-plus-image > img {
-                        max-width: 100%;
-                    }
+    .panel-google-plus > .panel-body > .panel-google-plus-image > img { max-width: 100%; }
 
-            .panel-google-plus > .panel-footer {
-                font-size: 14px;
-                font-weight: 700;
-                min-height: 54px;
-            }
+    .panel-google-plus > .panel-footer {
+        font-size: 14px;
+        font-weight: 700;
+        min-height: 54px;
+    }
 
-                .panel-google-plus > .panel-footer > .btn {
-                    float: left;
-                    margin-right: 8px;
-                }
+    .panel-google-plus > .panel-footer > .btn {
+        float: left;
+        margin-right: 8px;
+    }
 
-                .panel-google-plus > .panel-footer > .input-placeholder {
-                    display: block;
-                    margin-left: 98px;
-                    color: rgb(153, 153, 153);
-                    font-size: 12px;
-                    font-weight: 400;
-                    padding: 8px 6px 7px;
-                    border: 1px solid rgb(217, 217, 217);
-                    border-radius: 2px;
-                    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
-                }
+    .panel-google-plus > .panel-footer > .input-placeholder {
+        display: block;
+        margin-left: 98px;
+        color: rgb(153, 153, 153);
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 6px 7px;
+        border: 1px solid rgb(217, 217, 217);
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+    }
 
-            .panel-google-plus.panel-google-plus-show-comment > .panel-footer > .input-placeholder {
-                display: none;
-            }
+    .panel-google-plus.panel-google-plus-show-comment > .panel-footer > .input-placeholder { display: none; }
 
-            .panel-google-plus > .panel-google-plus-comment {
-                display: none;
-                padding: 10px 20px 15px;
-                border-top: 1px solid rgb(229, 229, 229);
-                background-color: rgb(245, 245, 245);
-            }
+    .panel-google-plus > .panel-google-plus-comment {
+        display: none;
+        padding: 10px 20px 15px;
+        border-top: 1px solid rgb(229, 229, 229);
+        background-color: rgb(245, 245, 245);
+    }
 
-            .panel-google-plus.panel-google-plus-show-comment > .panel-google-plus-comment {
-                display: block;
-            }
-            /*.panel-google-plus > .panel-google-plus-comment > img {
+    .panel-google-plus.panel-google-plus-show-comment > .panel-google-plus-comment { display: block; }
+
+    /*.panel-google-plus > .panel-google-plus-comment > img {
             float: left;
         }*/
-            .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea {
-                float: right;
-                width: calc(100% - 56px);
-            }
 
-                .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > textarea {
-                    display: block;
-                    /*margin-left: 60px;
+    .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea {
+        float: right;
+        width: calc(100% - 56px);
+    }
+
+    .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > textarea {
+        display: block;
+        /*margin-left: 60px;
             width: calc(100% - 56px);*/
-                    width: 100%;
-                    background-color: rgb(255, 255, 255);
-                    border: 1px solid rgb(217, 217, 217);
-                    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
-                    resize: vertical;
-                }
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(217, 217, 217);
+        box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+        resize: vertical;
+    }
 
-                .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > .btn {
-                    margin-top: 10px;
-                    margin-right: 8px;
-                    width: 100%;
-                }
+    .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > .btn {
+        margin-top: 10px;
+        margin-right: 8px;
+        width: 100%;
+    }
 
-        @media (min-width: 992px) {
-            .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > .btn {
-                width: auto;
-            }
-        }
+    @media (min-width: 992px) {
+        .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > .btn { width: auto; }
+    }
 
 
-        .panel-google-plus .btn {
-            border-radius: 3px;
-        }
+    .panel-google-plus .btn { border-radius: 3px; }
 
-        .panel-google-plus .btn-default {
-            border: 1px solid rgb(217, 217, 217);
-            box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
-        }
+    .panel-google-plus .btn-default {
+        border: 1px solid rgb(217, 217, 217);
+        box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+    }
 
-            .panel-google-plus .btn-default:hover,
-            .panel-google-plus .btn-default:focus,
-            .panel-google-plus .btn-default:active {
-                background-color: rgb(255, 255, 255);
-                border-color: rgb(0, 0, 0);
-            }
-    </style>
+    .panel-google-plus .btn-default:hover,
+    .panel-google-plus .btn-default:focus,
+    .panel-google-plus .btn-default:active {
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(0, 0, 0);
+    }
+</style>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="navbar-brand" href="#">KJGK - Örnekler</a>
-            </div>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="navbar-brand" href="#">KJGK - Örnekler</a>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a class="list-group-item" href="./01.KJGK.ORNEK Saat Yapımı.html">Saat Yapımı</a>
-                    <a class="list-group-item" href="./02.KJGK.ORNEK Çember Çevresi Hesapla.html">Çember Çevresi Hesapla</a>
-                    <a class="list-group-item" href="./03.KJGK.ORNEK Dikdörtgen Alan Hesapla.html">Dikdörtgen Alan Hesapla</a>
-                    <a class="list-group-item active" href="./04.KJGK.ORNEK Buton Deger +-.html">Butona Tıklayınca Değer Arttırma/Azaltma</a>
-                    <a class="list-group-item" href="./05.KJGK.ORNEK Bende Gelecem Butonu.html">Bende Gelecem Butonu</a>
-                    <a class="list-group-item" href="./06.KJGK.ORNEK Hareketli Renkler.html">Hareketli Renkler</a>
-                    <a class="list-group-item" href="./07.KJGK.ORNEK Gönderi Kartı Scripti.html">Gönderi Kartı Scripti</a>
-                    <a class="list-group-item" href="./08.KJGK.ORNEK İletişim Alanı Scripti.html">İletişim Alanı Scripti</a>
-                    <a class="list-group-item" href="./09.KJGK.ORNEK Login Giriş Scripti.html">Login Giriş Scripti</a>
-                    <a class="list-group-item" href="./10.KJGK.ORNEK Kişi Arama Scripti.html">Kişi Arama Scripti</a>
-                </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a class="list-group-item" href="./01.KJGK.ORNEK Saat Yapımı.html">Saat Yapımı</a>
+                <a class="list-group-item" href="./02.KJGK.ORNEK Çember Çevresi Hesapla.html">Çember Çevresi Hesapla</a>
+                <a class="list-group-item" href="./03.KJGK.ORNEK Dikdörtgen Alan Hesapla.html">Dikdörtgen Alan Hesapla</a>
+                <a class="list-group-item active" href="./04.KJGK.ORNEK Buton Deger +-.html">Butona Tıklayınca Değer Arttırma/Azaltma</a>
+                <a class="list-group-item" href="./05.KJGK.ORNEK Bende Gelecem Butonu.html">Bende Gelecem Butonu</a>
+                <a class="list-group-item" href="./06.KJGK.ORNEK Hareketli Renkler.html">Hareketli Renkler</a>
+                <a class="list-group-item" href="./07.KJGK.ORNEK Gönderi Kartı Scripti.html">Gönderi Kartı Scripti</a>
+                <a class="list-group-item" href="./08.KJGK.ORNEK İletişim Alanı Scripti.html">İletişim Alanı Scripti</a>
+                <a class="list-group-item" href="./09.KJGK.ORNEK Login Giriş Scripti.html">Login Giriş Scripti</a>
+                <a class="list-group-item" href="./10.KJGK.ORNEK Kişi Arama Scripti.html">Kişi Arama Scripti</a>
             </div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="hero-unit">
-                            <div class="form-group row">
-                                <label for="example-text-input" class="col-2 col-form-label">Değer</label>
-                                <div class="col-10">
-                                    <input class="form-control" type="text" id="Deger" value="0">
-                                </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero-unit">
+                        <div class="form-group row">
+                            <label for="example-text-input" class="col-2 col-form-label">Değer</label>
+                            <div class="col-10">
+                                <input class="form-control" type="text" id="Deger" value="0">
                             </div>
-                            <div class="form-group row">
-                                <button type="button" onclick="Arttir()" class="btn btn-success">+</button>
-                                <button type="button" onclick="Azalt()" class="btn btn-danger">-</button>
-                            </div>
-                            <script>
-                                function Arttir() {
-                                    var deger = document.getElementById("Deger").value;
-                                    document.getElementById("Deger").value = Number(deger) + 1;
-                                }
-                                function Azalt() {
-                                    var deger = document.getElementById("Deger").value;
-                                    document.getElementById("Deger").value = Number(deger) - 1;
-                                }
-                            </script>
                         </div>
+                        <div class="form-group row">
+                            <button type="button" onclick="Arttir()" class="btn btn-success">+</button>
+                            <button type="button" onclick="Azalt()" class="btn btn-danger">-</button>
+                        </div>
+                        <script>
+                            function Arttir() {
+                                var deger = document.getElementById("Deger").value;
+                                document.getElementById("Deger").value = Number(deger) + 1;
+                            }
+
+                            function Azalt() {
+                                var deger = document.getElementById("Deger").value;
+                                document.getElementById("Deger").value = Number(deger) - 1;
+                            }
+                        </script>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>

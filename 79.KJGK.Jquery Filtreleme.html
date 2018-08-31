@@ -9,19 +9,21 @@
 <div id="div1" style="background-color: red; padding: 20px;">
     <div class="content2">test</div>
     <div class="content">
-        <h2>Sıcak Günler</h2>
-        <p style="color: white;">Bugün hava çok sıcak</p>
+        <h1>Sıcak Günler</h1>
+        <h2>Sıcak Günler2</h2>
+        <p style="color: white;" class="pClass">Bugün hava çok sıcak</p>
         <div id="yazarBilgisi">
-            <p>Yazar: Can Özaytekin</p>
+            <p>Yazar : Can Özaytekin</p>
         </div>
     </div>
 </div>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
-    //parent,children,find
-    console.log($("#yazarBilgisi").parent());
-    console.log($(".content").children());
-    console.log($("#div").find("p"));
+    //first(), last(), eq(), filter(), not()
+    console.log($("p").first());
+    console.log($("p").last());
+    console.log($("p").eq(1));
+    console.log($("p").filter(".pClass"));
 </script>
 </body>
 </html>

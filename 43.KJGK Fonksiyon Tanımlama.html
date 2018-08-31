@@ -2,29 +2,33 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title></title>
 </head>
 <body>
-    <script>
-        var araba = { Marka: "Mercedes", Model: "C185" };
+<script>
+    var araba = { Marka: "Mercedes", Model: "C185" };
+    console.log(araba);
+    ArabayiDegistir();
+
+    function ArabayiDegistir() {
+        MarkaDegistir();
+        ModelDegistir();
+    }
+
+    function MarkaDegistir() {
+        araba.Marka = "Audi";
         console.log(araba);
-        ArabayiDegistir();
-        function ArabayiDegistir() {
-            MarkaDegistir();
-            ModelDegistir();
-        }
-        function MarkaDegistir() {
-            araba.Marka = "Audi";
-            console.log(araba);
-        }
-        function ModelDegistir() {
-            araba.Marka = "Audi";
-            console.log(araba);
-        }
-        function ModelIsmi() {
-            return araba.Model;
-        }
-    </script>
+    }
+
+    function ModelDegistir() {
+        araba.Marka = "Audi";
+        console.log(araba);
+    }
+
+    function ModelIsmi() {
+        return araba.Model;
+    }
+</script>
 </body>
 </html>

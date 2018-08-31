@@ -103,6 +103,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JQUERY HTML", "JQUERY HTML"
 		75.KJGK.Jquery Html Kaldırma.html = 75.KJGK.Jquery Html Kaldırma.html
 		76.KJGK.Jquery Html Boyutlarına Erişim.html = 76.KJGK.Jquery Html Boyutlarına Erişim.html
 		77.KJGK.Jquery Html Ust-Alt Erişim.html = 77.KJGK.Jquery Html Ust-Alt Erişim.html
+		78.KJGK.Jquery Html Önceki Sonraki Erişim.html = 78.KJGK.Jquery Html Önceki Sonraki Erişim.html
+		79.KJGK.Jquery Filtreleme.html = 79.KJGK.Jquery Filtreleme.html
 	EndProjectSection
 EndProject
 Global

@@ -2,15 +2,16 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title></title>
 </head>
 <body>
 <h5>Adı:</h5>
 <input id="AdSoyad" type="text" value="can Özaytekin"/>
-    <div id="icerik"></div>
+<div id="icerik"></div>
 <script>
     document.getElementById("AdSoyad").addEventListener("focus", funcAdSoyadFocus);
+
     function funcAdSoyadFocus(a) {
         document.getElementById('icerik').innerHTML = 'test';
         this.value = "yavuz özaytekin";
